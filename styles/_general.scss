@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(225, 233, 233);
+  font-family: "Barlow Semi", sans-serif;
+  font-size: 13px;
+}
+
+.box > .user > .avatar > img {
+  border-radius: 50%;
+  margin: 0 1rem 1.5rem 0;
+  height: auto;
+  width: 30px;
+}
+
+.user {
+  display: flex;
+}
+
+.box > h3 {
+  margin-bottom: 2rem;
+}
+
+.container {
+  padding: 5rem;
+  margin: 0 auto;
+}
+.box {
+  border-radius: 1rem;
+  padding: 2rem;
+  -webkit-box-shadow: 3px 6px 16px -3px rgba(0, 0, 0, 0.58);
+  box-shadow: 3px 6px 16px -3px rgba(0, 0, 0, 0.58);
+}
+.box1 {
+  background-image: url(/images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+  background-size: 25%;
+}
+.box1,
+.box2,
+.box4 {
+  background-color: $moderate-violet;
+
+  .name > h5 {
+    color: $white;
+  }
+  .name > p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 5px;
+  }
+
+  .avatar > img {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  h3 {
+    color: white;
+  }
+  p {
+    color: rgba(255, 255, 255, 0.705);
+  }
+}
+.box2 {
+  background-color: $very-dark-grayish-blue;
+}
+.box3 {
+  background-color: $white;
+}
+.box4 {
+  background-color: $very-dark-blackish-blue;
+  .avatar > img {
+    border: 1px solid $moderate-violet;
+  }
+}
+.box5,
+.box3 {
+  background-color: $white;
+
+  .name > h5 {
+    color: $very-dark-blackish-blue;
+  }
+  .name > p {
+    color: hsla(217, 30%, 14%, 0.5);
+  }
+
+  h3 {
+    color: $very-dark-blackish-blue;
+  }
+  p {
+    color: hsla(217, 30%, 14%, 0.705);
+  }
+}
